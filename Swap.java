@@ -1,20 +1,14 @@
 public class Swap {
-    //int a,b,temp;
-    /*public int functionSwap(int a, int b){
-         a=5;
-         b=3;
-         temp=a;
-         a=b;
-         b=temp;
-    }*/
     public static void main(String[] args){
         int a,b,temp;
         a=5;
         b=3;
+        System.out.println("Value of a before swap="+a);
+        System.out.println("Value of b before swap="+b);
         temp=a;
         a=b;
         b=temp;
-        System.out.println("Value for a="+a);
-        System.out.println("Value for b="+b);
+        System.out.println("Value of a after swap="+a);
+        System.out.println("Value of b after swap"+b);
     }
 }
